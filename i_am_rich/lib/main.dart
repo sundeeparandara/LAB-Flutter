@@ -4,10 +4,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.red,
         appBar: AppBar(
           title: Text('I Am Rich'),
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.blueGrey[700],
         ),
         body: Center(
           child: Image(
