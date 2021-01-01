@@ -1,6 +1,7 @@
 # LAB Flutter
  Repository for exercises / projects done during Udemy / London App Brewery Flutter course.
- Source: Udemy / London App Brewery, Angela Yu, Flutter course.
+ 
+ Source: https://www.udemy.com/course/flutter-bootcamp-with-dart/
  
 ## I Am Poor App (folder: i_am_poor_v1)
  Image from: https://unsplash.com/photos/TBHOuN6URGU
