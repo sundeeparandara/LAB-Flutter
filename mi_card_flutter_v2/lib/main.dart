@@ -18,7 +18,24 @@ class MyApp extends StatelessWidget {
                 //backgroundColor: Colors.white,
                 backgroundImage: AssetImage('images/pikachu.jpg'),
               ),
-              Text('Pikachu Thundershock')
+              Text(
+                'Pikachu Thundershock',
+                style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    fontSize: 30),
+              ),
+              Text(
+                'Clan Ketchum',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontWeight: FontWeight.bold,
+                  color: Colors.teal[100],
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                ),
+              ),
             ],
           ),
         ),
