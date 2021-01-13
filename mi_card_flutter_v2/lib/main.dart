@@ -38,52 +38,41 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
+              SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(color: Colors.teal[100]),
+              ),
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                padding: EdgeInsets.all(10),
+                //padding: EdgeInsets.all(10), //from when card was a container
                 color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      size: 30.0,
-                      color: Colors.teal[900],
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+44 123 456 789',
-                      style: TextStyle(
-                          color: Colors.teal[900],
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0),
-                    ),
-                  ],
+                child: ListTile(
+                  leading:
+                      Icon(Icons.phone, size: 30.0, color: Colors.teal[900]),
+                  title: Text(
+                    '+44 123 456 789',
+                    style: TextStyle(
+                        color: Colors.teal[900],
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0),
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                padding: EdgeInsets.all(10),
+                //padding: EdgeInsets.all(10), //from when card was a container
                 color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      size: 30.0,
-                      color: Colors.teal[900],
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'pikachu@pokeball.com',
-                      style: TextStyle(
-                          color: Colors.teal[900],
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0),
-                    ),
-                  ],
+                child: ListTile(
+                  leading:
+                      Icon(Icons.email, size: 30.0, color: Colors.teal[900]),
+                  title: Text(
+                    'pikachu@pokeball.com',
+                    style: TextStyle(
+                        color: Colors.teal[900],
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0),
+                  ),
                 ),
               ),
             ],
