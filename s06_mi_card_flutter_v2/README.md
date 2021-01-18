@@ -1,3 +1,5 @@
+# This project is a replica of the app described below, built during a training exercise.
+
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
 # Mi Card
