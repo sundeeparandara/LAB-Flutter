@@ -18,6 +18,9 @@ void main() {
 class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var leftDiceNumber = 5;
+    var rightDiceNumber = 3;
+
     return Center(
       child: Row(
         children: [
@@ -27,7 +30,7 @@ class DicePage extends StatelessWidget {
               onPressed: () {
                 print('left button got pressed');
               }, //voidcallback - no input arguments and returns no data
-              child: Image.asset('images/dice1.png'),
+              child: Image.asset('images/dice$leftDiceNumber.png'),
             ),
           ),
           Expanded(
@@ -36,7 +39,7 @@ class DicePage extends StatelessWidget {
               onPressed: () {
                 print('right button got pressed');
               },
-              child: Image.asset('images/dice1.png'),
+              child: Image.asset('images/dice$rightDiceNumber.png'),
             ),
           ),
         ],
